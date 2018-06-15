@@ -85,6 +85,8 @@ Vector2 Vector2::operator -= (float rhs)
 {
 	this->x -= rhs;
 	this->y -= rhs;
+
+	return *this;
 }
 
 Vector2 Vector2::operator * (Vector2 rhs)

@@ -1,8 +1,3 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (MathsLibrary.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Vector2.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  Matrix4.cpp
-  Matrix3.cpp
-  Matrix2.cpp
-  MathsLibrary.vcxproj -> C:\Users\s181205\Desktop\MathsLibrary\x64\Debug\MathLib.lib
+  MathsLibrary.vcxproj -> C:\Users\s181205\Desktop\MathLib\MathLib\x64\Debug\MathLib.lib
