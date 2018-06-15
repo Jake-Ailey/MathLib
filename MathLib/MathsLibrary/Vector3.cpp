@@ -2,7 +2,6 @@
 #include <assert.h>
 #define _USE_MATH_DEFINES
 #include <math.h>
-#include <assert.h>
 
 
 Vector3::Vector3()
