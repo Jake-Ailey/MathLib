@@ -5,14 +5,20 @@
 
 Matrix3::Matrix3()
 {
-	m[0][0] = 1.0f;
-	m[0][1] = 0.0f;
+	//X axis
+	//This is the axis to the left and right of the character, or what is besides it
+	m[0][0] = 1.0f;		//x
+	m[0][1] = 0.0f;		//y
 	m[0][2] = 0.0f;
 
-	m[1][0] = 0.0f;
-	m[1][1] = 1.0f;
+	//Y axis
+	//This is the direction that the character is currently facing, or this is the character's "UP"
+	m[1][0] = 0.0f;		//x
+	m[1][1] = 1.0f;		//y
 	m[1][2] = 0.0f;
 
+	//Z axis
+	//This is the axis that faces towards the screen
 	m[2][0] = 0.0f;
 	m[2][1] = 0.0f;
 	m[2][2] = 1.0f;
